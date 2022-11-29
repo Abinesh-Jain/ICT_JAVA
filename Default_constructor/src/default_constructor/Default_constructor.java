@@ -15,6 +15,8 @@ public class Default_constructor {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Pencil Pencil=new Pencil();
+        System.out.println(Pencil.get_details());
     }
     
 }

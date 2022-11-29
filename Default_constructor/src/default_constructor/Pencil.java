@@ -13,13 +13,13 @@ public class Pencil {
     String shape;
     float length;
     float dia;
-    Pencil(){
+    String get_details(){
+        return("Name of the pencil is "+name+" and is of "+shape+" shape in cross section. The length and dia of the pencil is "+length+" cm and "+dia+" mm");
+    }
+    public Pencil(){
         name="Apsara";
         shape="Triangle";
         length=15;
         dia=10;
-    }
-    String get_details(){
-        return("Name of the pencil is "+name+" and is of"+shape+" shape in cross section. The length and dia of the pencil is "+length+" cm and "+dia+" mm");
     }
 }
