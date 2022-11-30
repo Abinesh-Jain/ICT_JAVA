@@ -10,7 +10,7 @@ package bank_project;
  */
 public class Bank {
     String Bank_name;
-    int interest_rate;
+    float interest_rate;
     void get_loan()
     {
         System.out.println(Bank_name+" provide loan with a interest rate of "+interest_rate+" % pet annum.");
