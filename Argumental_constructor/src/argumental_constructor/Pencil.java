@@ -20,8 +20,8 @@ public class Pencil {
         dia=10;
     }
     Pencil(String name1,String shape1,float length1,float dia1){
-        name=name1;
-        shape=shape1;
+        name1="Natraj";
+        shape1="";
         length=length1;
         dia=dia1;
     }
