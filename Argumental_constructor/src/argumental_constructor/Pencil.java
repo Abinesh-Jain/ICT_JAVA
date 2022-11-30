@@ -9,7 +9,7 @@ package argumental_constructor;
  * @author amsia
  */
 public class Pencil {
-     String name;
+    String name;
     String shape;
     float length;
     float dia;
@@ -21,11 +21,11 @@ public class Pencil {
     }
     Pencil(String name1,String shape1,float length1,float dia1){
         name1="Natraj";
-        shape1="";
-        length=length1;
-        dia=dia1;
+        shape1="Hexagonal";
+        length1=15;
+        dia1=10;
     }
     String get_details(){
-        return("Name of the pencil is "+name+" and is of"+shape+" shape in cross section. The length and dia of the pencil is "+length+" cm and "+dia+" mm");
+        return("Name of the pencil is "+name+" and is of "+shape+" shape in cross section. The length and dia of the pencil is "+length+" cm and "+dia+" mm");
     }
 }
