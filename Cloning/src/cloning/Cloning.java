@@ -17,8 +17,8 @@ public class Cloning {
     public static void main(String[] args)throws CloneNotSupportedException {
         // TODO code application logic here
         abinesh hsc=new abinesh();
-        jain sslc=(sslc)hsc.clone();
-        System.out.println("The name and rollno is "+hsc.name+" and "+hsc.rollno);
+        abinesh sslc=(abinesh)hsc.clone();
+        System.out.println("The name and rollno is "+sslc.name+" and "+sslc.rollno);
     }
     
 }
