@@ -26,7 +26,11 @@ public class Array {
         for(int i=0;i<v;i++)
         {
             num[i]=in.nextInt();
-            System.out.println("The values are "+num[i]);
+        }
+        System.out.println("The "+v+" values in the array are as follows");
+        for(int j=0;num.length>j;j++)
+        {
+            System.out.println(num[j]);
         }
         
     }
