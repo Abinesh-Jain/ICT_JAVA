@@ -10,13 +10,18 @@ package binary_converter;
  */
 public class converter {
     String binary;
-    void toBinary(int x)
+    public static void toBinary(int x)
     {
-        int num=0;
-        while(num>0)
+        int[] binary=new int[40];
+        int i=0;
+        while(x>0)
         {
-            binary=(num%2)+binary;
-            num/=2;
+            binary[i++]=(x%2);
+            x/=2;
+        }
+        for(int j=i-1;j>=0;j--)
+        {
+            System.out.println(binary[i]);
         }
     }
 }

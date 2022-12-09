@@ -11,15 +11,12 @@ import java.util.Scanner;
  * @author amsia
  */
 public class Binary_Converter {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner in=new Scanner(System.in);
         int x=in.nextInt();
         converter B=new converter();
+        System.out.println(converter.toBinary(x));
     }
     
 }
