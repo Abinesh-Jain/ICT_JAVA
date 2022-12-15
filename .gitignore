@@ -108,3 +108,5 @@ replay_pid*
 /AL/build/
 /duplicate/nbproject/private/
 /duplicate/build/
+/checker/nbproject/private/
+/checker/build/
