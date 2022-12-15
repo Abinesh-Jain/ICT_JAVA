@@ -3,6 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package hello;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
 
 /**
  *
@@ -12,14 +14,12 @@ public class Hello {
 
     /**
      * @param args the command line arguments
+     * @throws java.io.IOException
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         // TODO code application logic here
-        System.out.println("Hello World!");
-        int f=1,i=2;
-        while(++i<5)
-            f*=i;
-        System.out.println(f);
+        OutputStreamWriter out=new OutputStreamWriter(System.out);
+        out.write("Hello World!");
     }
     
 }
