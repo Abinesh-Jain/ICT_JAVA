@@ -106,3 +106,5 @@ replay_pid*
 /MWF/build/
 /AL/nbproject/private/
 /AL/build/
+/duplicate/nbproject/private/
+/duplicate/build/
