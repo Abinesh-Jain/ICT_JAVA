@@ -22,7 +22,7 @@ public class Array {
         int v=in.nextInt();
         int num[]=new int[v];
         System.out.println("There are "+v+" values in the array.");
-        System.out.println("Enter the values :");
+        System.out.println("Enter t3he values :");
         for(int i=0;i<v;i++)
         {
             num[i]=in.nextInt();
