@@ -11,15 +11,9 @@ import java.io.OutputStreamWriter;
  * @author amsia
  */
 public class Hello {
-
-    /**
-     * @param args the command line arguments
-     * @throws java.io.IOException
-     */
     public static void main(String[] args) throws IOException {
-        // TODO code application logic here
         OutputStreamWriter out=new OutputStreamWriter(System.out);
         out.write("Hello World!");
+        out.flush();
     }
-    
 }

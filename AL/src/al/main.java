@@ -27,10 +27,10 @@ public class main {
              A1.add(in.nextInt());
         }
         System.out.println(A1);
-        int x=2;
+        int x;
         for(int i=0;i<A1.size();i++)
         {
-            x=x*A1.get(i);
+            x=2*A1.get(i);
             A1.add(x);
         }
         System.out.println("The Complete list is "+A1);
