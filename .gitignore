@@ -110,3 +110,5 @@ replay_pid*
 /duplicate/build/
 /checker/nbproject/private/
 /checker/build/
+/ArrayChecker/nbproject/private/
+/ArrayChecker/build/
