@@ -21,18 +21,17 @@ public class main {
         for(i=0;i<a_down.length();i++)
         {
             c=1;
-            for(int j=1;j<a_down.length();j++)
+            for(int j=i+1;j<a_down.length();j++)
             {
                 if(arr[i]==arr[j]&&arr[i]!=' '){
                     c++;
-                    arr[j]=0;
+                    arr[j]='0';
                 }
             }
         }
-        if(c>1)
+        if(c>1 && arr[i]!='0')
         {
             System.out.println(arr[i]);
         }
-    }
-    
+    } 
 }
