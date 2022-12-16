@@ -112,3 +112,5 @@ replay_pid*
 /checker/build/
 /ArrayChecker/nbproject/private/
 /ArrayChecker/build/
+/LargeNo/nbproject/private/
+/LargeNo/build/
