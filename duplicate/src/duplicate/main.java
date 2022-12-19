@@ -15,8 +15,7 @@ public class main {
         String a_down=a.toLowerCase();
         System.out.println("The Sentence in UPPER CASE is - "+a_up);
         System.out.println("The Sentence in LOWER CASE is - "+a_down);
-        int c=0;
-        int i;
+        int c,i;
         char arr[]=a_down.toCharArray();
         for(i=0;i<a_down.length();i++)
         {
@@ -28,10 +27,10 @@ public class main {
                     arr[j]='0';
                 }
             }
-        }
-        if(c>1 && arr[i]!='0')
-        {
-            System.out.println(arr[i]);
-        }
+            if(c>1 && arr[i]!='0')
+            {
+                System.out.println(arr[i]);
+            }
+        }       
     } 
 }
