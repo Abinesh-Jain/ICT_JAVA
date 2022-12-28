@@ -17,16 +17,17 @@ public class main {
         n=in.nextInt();
         for(int i=0;i<n;i++)
         {
-             A1.add(in.nextInt());
+             A1.add(i,in.nextInt());
         }
         System.out.println(A1);
+        ArrayList<Integer> A2=new ArrayList<>();
         int x;
         for(int i=0;i<A1.size();i++)
         {
             x=2*A1.get(i);
-            A1.add(x);
+            A2.add(i,x);
         }
-        System.out.println("The Complete list is "+A1);
+        System.out.println(A2);
     }
     
 }
