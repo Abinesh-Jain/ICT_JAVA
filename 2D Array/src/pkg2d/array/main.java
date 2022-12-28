@@ -16,18 +16,14 @@ public class main {
         int c=in.nextInt();
         int arr[][]=new int[r][c];
         System.out.println("Add Elements : ");
-        for(int i=0;i<arr.length;i++)
-        {
-            for(int j=0;j<arr.length;j++)
-            {
-                arr[i][j]=in.nextInt();
+        for (int[] arr1 : arr) {
+            for (int j = 0; j<arr.length; j++) {
+                arr1[j] = in.nextInt();
             }
         }
-        for(int i=0;i<arr.length;i++)
-        {
-            for(int j=0;j<arr.length;j++)
-            {
-                System.out.print(arr[i][j]*2);
+        for (int[] arr1 : arr) {
+            for (int j = 0; j<arr.length; j++) {
+                System.out.print(arr1[j] * 2);
             }
         }
     }
