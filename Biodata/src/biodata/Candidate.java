@@ -17,10 +17,10 @@ public class Candidate {
     float experience;
     void display_candidatename()
     {
-        System.out.println("The name of the candidate is "+name);
+        System.out.println("The name and age of the candidate is "+name+" and "+age+" and is a "+gender);
     }
     void display_education()
     {
-        System.out.println(name+" has completed "+qualification+" in "+department);
+        System.out.println(name+" has completed "+qualification+" in "+department+" and have "+experience+" years of experience.");
     }
 }

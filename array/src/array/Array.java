@@ -2,10 +2,6 @@ package array;
 
 import java.util.Scanner;
 
-/**
- *
- * @author amsia
- */
 public class Array {
 
     public static void main(String[] args) {

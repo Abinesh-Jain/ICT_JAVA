@@ -13,14 +13,7 @@ public class main {
                 {
                     return false;
                 }
-                else if(a[0]==3||a[1]==2)
-                {
-                    return false;
-                }
-                else
-                {
-                    return true;
-                }
+                else return !(a[0]==3||a[1]==2);
             }
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);

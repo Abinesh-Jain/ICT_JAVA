@@ -8,7 +8,7 @@ public class main {
 
     public static void main(String[] args) {
         String a="ABI";
-        if(a=="ABI")
+        if("ABI".equals(a))
         {
             System.out.println("OK");
         }

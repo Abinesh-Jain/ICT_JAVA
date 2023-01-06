@@ -1,20 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package basics;
 import java.util.*;
-/**
- *
- * @author amsia
- */
+
 public class Basics {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
         Scanner in=new Scanner(System.in);
         System.out.println("Let's compare and find the sum, difference, product and modulus of two numbers");
         System.out.println("Enter the First number : ");

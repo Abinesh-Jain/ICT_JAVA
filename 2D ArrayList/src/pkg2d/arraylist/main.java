@@ -11,7 +11,7 @@ public class main {
 
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
-        ArrayList<ArrayList<Integer>> arr=new ArrayList<ArrayList<Integer>>();
+        ArrayList<ArrayList<Integer>> arr=new ArrayList<>();
         System.out.print("Enter the number of ROWS : ");
         int r=in.nextInt();
         for(int i=0;i<r;i++)

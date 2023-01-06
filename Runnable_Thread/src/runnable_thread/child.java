@@ -10,12 +10,14 @@ package runnable_thread;
  */
 class parent implements Runnable
 {
+    @Override
     public void run()
     {
         System.out.println("B");
     }
 }
 public class child extends Thread{
+    @Override
     public void run()
     {
         System.out.println("A");
