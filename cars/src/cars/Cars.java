@@ -1,20 +1,30 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package cars;
 
-/**
- *
- * @author amsia
- */
+import java.io.File;
+import java.io.IOException;
+import java.util.Scanner;
+
 public class Cars {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner in=new Scanner(System.in);
+        try{
+        File fileOne=new File("index.html");
+        if(fileOne.createNewFile()){
+            System.out.println("File created "+fileOne.getName());
+        }else{
+            System.out.println("File already exist");
+        }
+        }catch(IOException e){
+            System.out.println(e);
+        }
+        int num=in.nextInt();
+        System.out.println("The no is "+num);
+        int sum=0;
+        for(int i=1;i<=num;i++){
+            sum=sum+i;
+        }
+        System.out.println(sum);
         car mustang=new car();
         mustang.model="Mustang GT";
         mustang.brand="FORD";
